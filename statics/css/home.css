@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+  * .container {
+    max-width: 40rem;
+    position: relative; }
+    * .container #file-count {
+      position: absolute;
+      top: 5rem;
+      right: 1rem; }
+      * .container #file-count span:last-child {
+        font-weight: 900; }
+    * .container #file-list {
+      height: 20rem;
+      background-color: #f2f2f2;
+      border-radius: 0.4rem; }
+      * .container #file-list ul {
+        height: 100%;
+        overflow-y: scroll;
+        list-style: none;
+        padding: 0.3rem;
+        border-radius: 0.4rem; }
+        * .container #file-list ul::-webkit-scrollbar {
+          display: none; }
+        * .container #file-list ul li {
+          border: 1px solid black;
+          padding: 0.1rem 0.3rem;
+          margin: 0.3rem 0;
+          background-color: white;
+          border-radius: 0.4rem;
+          position: relative; }
+          * .container #file-list ul li a:first-child {
+            width: 90%;
+            color: black;
+            display: inline-block;
+            cursor: pointer;
+            text-decoration: none; }
+          * .container #file-list ul li .delete {
+            color: black;
+            position: absolute;
+            width: 4%;
+            height: 100%;
+            display: inline-block;
+            top: 0;
+            right: 0px; }
+            * .container #file-list ul li .delete i {
+              position: absolute;
+              top: 0.1rem;
+              right: 0.4rem;
+              cursor: pointer; }

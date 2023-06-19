@@ -1,0 +1,16 @@
+footer{
+    .pagination{
+        border: 1px solid black;
+        display: flex;
+        flex-wrap: wrap;
+        li{
+            border: 1px solid black;
+            padding: 0.2rem 0.7rem;
+            cursor: pointer;
+        }
+        .active{
+            background-color: #0d6efd;
+            color: white;
+        }
+    }
+}
